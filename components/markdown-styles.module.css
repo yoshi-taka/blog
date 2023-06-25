@@ -1,0 +1,34 @@
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+.markdown p,
+.markdown ol {
+  @apply my-6;
+}
+
+.markdown blockquote  {
+  font-style: italic;
+  border-color: rgb(107 114 128);
+  background-color: rgb(61 61 61);
+  padding:1px 15px 1px;
+  @apply my-2;
+}
+
+
+.markdown a {
+  @apply underline underline-offset-4 hover:underline-offset-2;
+}
+
+.markdown ul,
+{
+  @apply list-disc list-inside;
+}
+
+.markdown h2 {
+  @apply text-3xl mt-12 mb-4 text-lime-500 leading-snug;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug;
+}

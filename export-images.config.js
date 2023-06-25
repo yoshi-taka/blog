@@ -11,7 +11,7 @@ const config = {
     ['png', 'webp'],
     ['jpg', 'avif'],
   ],
-  basePath: process.env.GITHUB_REF ? '/blog' : '',
+  basePath: process.env.GITHUB_REF ? '/blog' : '/blog',
   images: {
     deviceSizes: [640, 960, 1280, 1600, 1920],
   },

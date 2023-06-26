@@ -66,6 +66,8 @@ jobs:
         run: pnpm i --frozen-lockfile
       - name: Build with Next.js
         run: pnpm run build
+        env:
+          NEXT_PUBLIC_ANALYTICS_ID: ${{vars.NEXT_PUBLIC_ANALYTICS_ID}}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

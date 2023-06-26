@@ -11,6 +11,7 @@ import Head from 'next/head'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
 import { HOME_OG_IMAGE_URL } from '../../lib/constants'
+import Analytics from '../../components/analytics'
 
 type Props = {
   post: PostType
@@ -44,6 +45,7 @@ export default function Post({ post, morePosts, preview }: Props) {
                 <meta property="og:type" content="article" />
                 <meta content={post.excerpt} name="description" key="description" />
               </Head>
+              <Analytics />
               <PostHeader
                 title={post.title}
                 coverImage={post.coverImage}

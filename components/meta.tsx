@@ -7,6 +7,7 @@ const Meta = () => {
       <link rel="shortcut icon" href="data:," />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" content="#000" />
+      <meta name="google-site-verification" content="krX1v4vIV_raBedeXZjTq9wzIXOlX7cEYMRINYCmWjk" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
